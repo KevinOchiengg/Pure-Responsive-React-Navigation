@@ -1,0 +1,36 @@
+.burger-wrapper {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  margin-right: -20px;
+}
+
+.burger-wrapper span {
+  background: #555;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 2px;
+  margin: 0.5rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.open span:nth-child(3) {
+  transform: rotate(45deg);
+  top: -10px;
+}
+
+.open span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
+@media (min-width: 768px) {
+  .burger-wrapper {
+    display: none;
+  }
+}

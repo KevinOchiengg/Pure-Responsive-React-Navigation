@@ -1,0 +1,41 @@
+.navbar__container {
+  position: fixed;
+  min-height: 12vh;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
+  z-index: 10;
+}
+
+.navbar__container .navbar__content {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  justify-content: space-between;
+  height: 12vh;
+  width: 100%;
+}
+
+.burger {
+  margin: auto 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .nav-btn {
+    display: none;
+  }
+}

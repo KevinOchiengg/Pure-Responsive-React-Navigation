@@ -1,0 +1,32 @@
+.logo img {
+  margin-left: -40px;
+  max-height: 100px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.logo img:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+
+  .logo img {
+    max-height: 120px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo img {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .logo img {
+    width: 700px;
+  }
+}

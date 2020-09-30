@@ -1,0 +1,24 @@
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 12vh;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-section img {
+  width: 400px;
+}
+
+.content-section p {
+  margin: 40px;
+}
+
+@media (min-width: 768px) {
+  .content-section img {
+    width: 700px;
+  }
+}
